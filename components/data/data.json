@@ -1,0 +1,1191 @@
+{
+  "common": {
+    "Header": {
+      "logo": "/logo/logo.webp",
+      "logo_text": "FreshFold",
+      "logo_subtext": "Laundry Service",
+      "links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Services",
+          "href": "/services"
+        },
+        {
+          "name": "Our Team",
+          "href": "/team"
+        },
+        {
+          "name": "Pricing",
+          "href": "/pricing"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "button_text": "Book a Pickup",
+      "button_link": "/book-pickup",
+      "menu_aria_label": "Open navigation menu",
+      "close_aria_label": "Close navigation menu"
+    },
+    "Footer": {
+      "logo": "/logo/white-logo.webp",
+      "logo_text": "FreshFold Laundry Service",
+      "image": "",
+      "image_alt": "Neatly folded fresh towels",
+      "quick_links_title": "Quick Links",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "/"
+        },
+        {
+          "name": "About Us",
+          "href": "/about"
+        },
+        {
+          "name": "Our Services",
+          "href": "/services"
+        },
+        {
+          "name": "Our Team",
+          "href": "/team"
+        },
+        {
+          "name": "Pricing",
+          "href": "/pricing"
+        },
+        {
+          "name": "Contact Us",
+          "href": "/contact"
+        }
+      ],
+      "contact_title": "Get in Touch",
+      "contact": {
+        "address_lines": [
+          "123 Education Lane,",
+          "New York, NY 10001"
+        ],
+        "phone": "+100000000000",
+        "phone_href": "tel:+100000000000",
+        "email": "info@xyz.com",
+        "email_href": "mailto:info@xyz.com"
+      },
+      "copyright": "© 2026 FreshFold Laundry Service. All Rights Reserved."
+    },
+    "BackToTop": {
+      "aria_label": "Back to top"
+    }
+  },
+  "categories": {
+    "LaundryService": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "FreshFold | Professional Laundry Service",
+              "pageName": "Home",
+              "metadata": {
+                "title": "FreshFold Laundry Service | Professional Cleaning for Homes & Offices",
+                "description": "FreshFold offers professional wash & fold, dry cleaning, steam ironing and free pickup & delivery laundry services for homes and offices."
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "HowItWorksSection",
+                  "component": "HowItWorks"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "about": {
+              "title": "About Us | FreshFold",
+              "pageName": "About Us",
+              "metadata": {
+                "title": "About Us | FreshFold Laundry Service",
+                "description": "Learn about FreshFold – your trusted laundry partner delivering fresh, clean and neatly folded clothes with care."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "MissionVisionSection",
+                  "component": "MissionVision"
+                },
+                {
+                  "key": "WhyChooseUsSection",
+                  "component": "WhyChooseUs"
+                },
+                {
+                  "key": "HowItWorksSection",
+                  "component": "HowItWorks"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "services": {
+              "title": "Our Services | FreshFold",
+              "pageName": "Our Services",
+              "metadata": {
+                "title": "Our Laundry Services | FreshFold",
+                "description": "Explore FreshFold laundry services – wash & fold, dry cleaning, steam ironing, stain removal, fabric care and pickup & delivery."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "serviceDetail": {
+              "title": "Service Detail | FreshFold",
+              "pageName": "Service Detail",
+              "metadata": {
+                "title": "Service Detail | FreshFold Laundry Service",
+                "description": "Detailed information about FreshFold professional laundry services."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ServiceDetailSection",
+                  "component": "ServiceDetail"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "howItWorks": {
+              "title": "How It Works | FreshFold",
+              "pageName": "How It Works",
+              "metadata": {
+                "title": "How It Works | FreshFold Laundry Service",
+                "description": "Schedule, we collect & clean, we deliver – effortless laundry in three simple steps with FreshFold."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "HowItWorksSection",
+                  "component": "HowItWorks"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "pricing": {
+              "title": "Pricing | FreshFold",
+              "pageName": "Pricing",
+              "metadata": {
+                "title": "Pricing Plans | FreshFold Laundry Service",
+                "description": "Simple, transparent laundry pricing plans from FreshFold for individuals, families and offices."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "PricingSection",
+                  "component": "Pricing"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "contact": {
+              "title": "Contact Us | FreshFold",
+              "pageName": "Contact Us",
+              "metadata": {
+                "title": "Contact Us | FreshFold Laundry Service",
+                "description": "Get in touch with FreshFold for laundry pickups, pricing questions or business enquiries."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "bookPickup": {
+              "title": "Book a Pickup | FreshFold",
+              "pageName": "Book a Pickup",
+              "metadata": {
+                "title": "Book a Pickup | FreshFold Laundry Service",
+                "description": "Schedule a convenient laundry pickup with FreshFold in under a minute."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "BookPickupSection",
+                  "component": "BookPickup"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            },
+            "team": {
+              "title": "Our Team | FreshFold",
+              "pageName": "Our Team",
+              "metadata": {
+                "title": "Our Team | FreshFold Laundry Service",
+                "description": "Meet our dedicated team of trained laundry and cleaning professionals committed to delivering high-quality fabric care."
+              },
+              "components": [
+                {
+                  "key": "BreadcrumbSection",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "TeamSection",
+                  "component": "Team"
+                },
+                {
+                  "key": "CtaSection",
+                  "component": "Cta"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "title_line1": "Professional Cleaning Service",
+              "title_line2": "for Homes & Offices",
+              "description": "Experience premium laundry care with doorstep pickup and delivery. We wash, dry, iron and fold your clothes with care, so you can focus on what matters most.",
+              "button_text": "Book a Pickup",
+              "button_link": "/book-pickup",
+              "images": [
+                {
+                  "src": "/images/hero-1.webp",
+                  "alt": "Front-load washing machine with laundry basket"
+                },
+                {
+                  "src": "/images/hero-2.webp",
+                  "alt": "Laundry professional ironing a shirt"
+                }
+              ]
+            },
+            "about": {
+              "eyebrow": "About Us",
+              "title": "Your Trusted Laundry Partner",
+              "title_black": "Your Trusted",
+              "title_blue": "Laundry Partner",
+              "items": [
+                {
+                  "icon": "WashingMachine",
+                  "text": "FreshFold Laundry Service is a modern and reliable laundry solution, dedicated to making your life easier. We offer professional washing, dry cleaning and fabric care with a focus on quality, hygiene and on-time delivery."
+                },
+                {
+                  "icon": "FoldedLaundry",
+                  "text": "With a customer-first approach, advanced cleaning techniques and fabric-safe care, we ensure your clothes look fresh, feel clean and last longer. From everyday laundry to special garment care, we are here for all your laundry needs."
+                }
+              ],
+              "paragraphs": [
+                "FreshFold Laundry Service is a modern and reliable laundry solution, dedicated to making your life easier. We offer professional washing, dry cleaning and fabric care with a focus on quality, hygiene and on-time delivery.",
+                "With a customer-first approach, advanced cleaning techniques and fabric-safe care, we ensure your clothes look fresh, feel clean and last longer. From everyday laundry to special garment care, we are here for all your laundry needs."
+              ],
+              "image": "/images/about.webp",
+              "image_alt": "Bright modern laundry room with folded towels and washing machines"
+            },
+            "missionVision": {
+              "eyebrow": "OUR PURPOSE",
+              "title": "Our Mission & Vision",
+              "description": "Delivering freshness, convenience, and quality care with every wash.",
+              "items": [
+                {
+                  "title": "Our Mission",
+                  "description": "To make laundry care simple, affordable, and stress-free through professional cleaning, careful fabric handling, and convenient doorstep pickup and delivery.",
+                  "image": "/images/mission.webp",
+                  "image_alt": "Laundry specialist neatly folding clothes in a laundromat"
+                },
+                {
+                  "title": "Our Vision",
+                  "description": "To become a trusted laundry service known for quality, reliability, and customer satisfaction while bringing smarter and more convenient laundry solutions to every home.",
+                  "image": "/images/vision.webp",
+                  "image_alt": "Modern bright laundry room with washing machines and folded towels"
+                }
+              ]
+            },
+            "whyChooseUs": {
+              "eyebrow": "Why Choose Us",
+              "title_black": "The Reasons Customers Trust",
+              "title_blue": "Our Laundry Service",
+              "image": "/images/why-choose-us.webp",
+              "image_alt": "Friendly laundry specialist with clean laundry basket",
+              "features": [
+                {
+                  "icon": "Users",
+                  "title": "Experienced Staff"
+                },
+                {
+                  "icon": "Layers",
+                  "title": "Premium Cleaning"
+                },
+                {
+                  "icon": "Truck",
+                  "title": "Pickup & Delivery"
+                },
+                {
+                  "icon": "Tag",
+                  "title": "Affordable Pricing"
+                }
+              ],
+              "partners_title": "Our Trusted Partners and Collaborators",
+              "partners": [
+                {
+                  "name": "Logoipsum",
+                  "color": "#06b6d4"
+                },
+                {
+                  "name": "Logoipsum",
+                  "color": "#10b981"
+                },
+                {
+                  "name": "Logoipsum",
+                  "color": "#f59e0b"
+                }
+              ]
+            },
+            "services": {
+              "eyebrow": "Our Services",
+              "title_black": "Our Laundry",
+              "title_blue": "Services",
+              "description": "From everyday laundry to delicate fabric care, we offer a complete range of professional laundry services to meet your needs.",
+              "button_text": "Learn More",
+              "items": [
+                {
+                  "id": "wash-fold",
+                  "slug": "wash-fold",
+                  "title": "Wash, Dry & Fold",
+                  "short_title": "Wash & Fold Service",
+                  "icon": "WashingMachine",
+                  "description": "Everyday laundry washed, dried and neatly folded – ready to wear or store.",
+                  "image": "/images/wash-fold.webp",
+                  "image_alt": "Folded towels in a wicker basket",
+                  "href": "/services/wash-fold",
+                  "show_on_home": true
+                },
+                {
+                  "id": "dry-cleaning",
+                  "slug": "dry-cleaning",
+                  "title": "Dry Cleaning",
+                  "short_title": "Dry Cleaning",
+                  "icon": "Shirt",
+                  "description": "Gentle solvent cleaning for suits, sarees, dresses and delicate garments.",
+                  "image": "/images/dry-cleaning.webp",
+                  "image_alt": "Clean shirts on hangers",
+                  "href": "/services/dry-cleaning",
+                  "show_on_home": true
+                },
+                {
+                  "id": "steam-ironing",
+                  "slug": "steam-ironing",
+                  "title": "Steam Ironing",
+                  "short_title": "Steam Ironing",
+                  "icon": "Flame",
+                  "description": "Crisp, wrinkle-free clothes with professional steam pressing and finishing.",
+                  "image": "/images/steam-ironing.webp",
+                  "image_alt": "Steam iron pressing a shirt",
+                  "href": "/services/steam-ironing",
+                  "show_on_home": true
+                },
+                {
+                  "id": "stain-removal",
+                  "slug": "stain-removal",
+                  "title": "Stain Removal",
+                  "short_title": "Stain Removal",
+                  "icon": "Sparkles",
+                  "description": "Targeted treatment for tough stains like oil, ink, wine and food spills.",
+                  "image": "/images/stain-removal.webp",
+                  "image_alt": "Stain remover applied to a white shirt",
+                  "href": "/services/stain-removal",
+                  "show_on_home": false
+                },
+                {
+                  "id": "fabric-care",
+                  "slug": "fabric-care",
+                  "title": "Fabric Care",
+                  "short_title": "Fabric Care",
+                  "icon": "Layers",
+                  "description": "Special handling for wool, silk, linen and other delicate fabrics.",
+                  "image": "/images/fabric-care.webp",
+                  "image_alt": "Soft folded sweaters and delicate fabrics",
+                  "href": "/services/fabric-care",
+                  "show_on_home": false
+                },
+                {
+                  "id": "pickup-delivery",
+                  "slug": "pickup-delivery",
+                  "title": "Pickup & Delivery",
+                  "short_title": "Pickup & Delivery",
+                  "icon": "Truck",
+                  "description": "Free doorstep pickup and on-time delivery at a slot that suits you.",
+                  "image": "/images/pickup-delivery.webp",
+                  "image_alt": "Delivery man holding a laundry bag",
+                  "href": "/services/pickup-delivery",
+                  "show_on_home": true
+                }
+              ]
+            },
+            "howItWorks": {
+              "eyebrow": "How It Works",
+              "title_black": "Effortless Laundry Service in",
+              "title_blue": "Three Simple Steps",
+              "description": "Get fresh, clean clothes without leaving your home. Our simple process saves you time and effort.",
+              "image": "/images/how-it-works.webp",
+              "image_alt": "Washing machine with laundry basket and detergents",
+              "steps": [
+                {
+                  "number": "01",
+                  "icon": "CalendarCheck",
+                  "title": "You Schedule",
+                  "description": "Choose a convenient date and time for pickup through our website or phone."
+                },
+                {
+                  "number": "02",
+                  "icon": "WashingMachine",
+                  "title": "We Collect & Clean",
+                  "description": "Our team picks up your laundry and professionally washes, dries and cares for your clothes with the best cleaning process."
+                },
+                {
+                  "number": "03",
+                  "icon": "Truck",
+                  "title": "We Deliver",
+                  "description": "Your fresh, clean and neatly folded clothes are delivered back to your doorstep on time."
+                }
+              ]
+            },
+            "testimonials": {
+              "eyebrow": "Testimonials",
+              "title": "What Our Customers Say",
+              "description": "Trusted by hundreds of happy customers for our reliable and high-quality laundry service.",
+              "autoplay_interval": 3000,
+              "prev_aria_label": "Previous testimonial",
+              "next_aria_label": "Next testimonial",
+              "items": [
+                {
+                  "id": "t1",
+                  "quote": "Excellent laundry service! My clothes always come back fresh, clean and perfectly folded. The pickup and delivery are super convenient, and the quality of cleaning is outstanding.",
+                  "name": "Rahul Sharma",
+                  "role": "Regular Customer",
+                  "rating": 5,
+                  "avatar": "/images/avatar-1.webp"
+                },
+                {
+                  "id": "t2",
+                  "quote": "I use their dry cleaning service for all my office wear. The quality is exceptional, the staff is polite and the pickup is always right on time. Highly recommended!",
+                  "name": "Priya Sharma",
+                  "role": "Regular Customer",
+                  "rating": 5,
+                  "avatar": "/images/avatar-2.webp"
+                },
+                {
+                  "id": "t3",
+                  "quote": "As a working professional, FreshFold has been a total lifesaver. No more spending weekends doing laundry. Their wash and fold service is impeccable and affordable.",
+                  "name": "Sneha Patel",
+                  "role": "Regular Customer",
+                  "rating": 5,
+                  "avatar": "/images/avatar-3.webp"
+                },
+                {
+                  "id": "t4",
+                  "quote": "Outstanding fabric care and stain removal! They managed to remove tough stains from my favorite white shirt that other cleaners couldn't fix. Truly impressed.",
+                  "name": "Amit Verma",
+                  "role": "Regular Customer",
+                  "rating": 5,
+                  "avatar": "/images/avatar-4.webp"
+                }
+              ]
+            },
+            "team": {
+              "eyebrow": "OUR TEAM",
+              "title_black": "Meet Our",
+              "title_blue": "Cleaning Experts",
+              "description": "A dedicated team of trained professionals committed to delivering high-quality cleaning services.",
+              "members": [
+                {
+                  "id": "m1",
+                  "name": "James Carter",
+                  "role": "Senior Cleaning Specialist",
+                  "image": "/images/team-1.webp",
+                  "image_alt": "James Carter - Senior Cleaning Specialist",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m2",
+                  "name": "Michael Anderson",
+                  "role": "Operations Manager",
+                  "image": "/images/team-2.webp",
+                  "image_alt": "Michael Anderson - Operations Manager",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m3",
+                  "name": "Daniel Roberts",
+                  "role": "Residential Cleaning Expert",
+                  "image": "/images/team-3.webp",
+                  "image_alt": "Daniel Roberts - Residential Cleaning Expert",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m4",
+                  "name": "Christopher Lewis",
+                  "role": "Commercial Cleaning Supervisor",
+                  "image": "/images/team-4.webp",
+                  "image_alt": "Christopher Lewis - Commercial Cleaning Supervisor",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m5",
+                  "name": "Matthew Ford",
+                  "role": "Deep Cleaning Specialist",
+                  "image": "/images/team-5.webp",
+                  "image_alt": "Matthew Ford - Deep Cleaning Specialist",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m6",
+                  "name": "Andrew Mitchell",
+                  "role": "Floor & Surface Care Expert",
+                  "image": "/images/team-6.webp",
+                  "image_alt": "Andrew Mitchell - Floor & Surface Care Expert",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m7",
+                  "name": "Sophia Bennett",
+                  "role": "Fabric Care Specialist",
+                  "image": "/images/team-7.webp",
+                  "image_alt": "Sophia Bennett - Fabric Care Specialist",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m8",
+                  "name": "David Wilson",
+                  "role": "Dry Cleaning Specialist",
+                  "image": "/images/team-8.webp",
+                  "image_alt": "David Wilson - Dry Cleaning Specialist",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m9",
+                  "name": "Emma Harrison",
+                  "role": "Quality Control Manager",
+                  "image": "/images/team-9.webp",
+                  "image_alt": "Emma Harrison - Quality Control Manager",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m10",
+                  "name": "Ryan Walker",
+                  "role": "Express Delivery Supervisor",
+                  "image": "/images/team-10.webp",
+                  "image_alt": "Ryan Walker - Express Delivery Supervisor",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m11",
+                  "name": "Olivia Martinez",
+                  "role": "Senior Garment Inspector",
+                  "image": "/images/team-11.webp",
+                  "image_alt": "Olivia Martinez - Senior Garment Inspector",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                },
+                {
+                  "id": "m12",
+                  "name": "Lucas Scott",
+                  "role": "Equipment Maintenance Lead",
+                  "image": "/images/team-12.webp",
+                  "image_alt": "Lucas Scott - Equipment Maintenance Lead",
+                  "socials": {
+                    "facebook": "https://facebook.com",
+                    "twitter": "https://twitter.com",
+                    "instagram": "https://instagram.com"
+                  }
+                }
+              ],
+              "pagination": {
+                "current_page": 1,
+                "total_pages": 2,
+                "items_per_page": 6
+              }
+            },
+            "cta": {
+              "title_black": "Ready for",
+              "title_blue": "Fresh & Clean",
+              "title_end": "Clothes?",
+              "description": "Book your laundry pickup today and enjoy hassle-free fabric care.",
+              "button_text": "Book a Pickup",
+              "button_link": "/book-pickup",
+              "image": "/images/cta-basket.webp",
+              "image_alt": "Basket of fresh folded towels with detergent and flower"
+            },
+            "breadcrumb": {
+              "title": "FreshFold",
+              "background_image": "/images/breadcrumb.webp",
+              "background_alt": "Smiling laundry professional holding folded towels",
+              "items": [
+                {
+                  "name": "Home",
+                  "href": "/"
+                }
+              ]
+            },
+            "serviceSidebar": {
+              "title": "Our Laundry Services",
+              "cta": {
+                "image": "/images/sidebar-basket.webp",
+                "image_alt": "Laundry basket with fresh towels",
+                "title": "Need Laundry Pickup?",
+                "description": "Schedule a convenient pickup and delivery today.",
+                "button_text": "Book a Pickup",
+                "button_link": "/book-pickup"
+              }
+            },
+            "serviceDetails": {
+              "wash-fold": {
+                "slug": "wash-fold",
+                "name": "Wash & Fold Service",
+                "title_black": "Professional Wash & Fold",
+                "title_blue": "Laundry Service",
+                "description": "A quick, convenient, and reliable laundry solution where we wash, dry, and neatly fold your clothes, so they're fresh, clean, and ready to wear.",
+                "image": "/images/wash-fold-detail.webp",
+                "image_alt": "Stack of folded towels with plant and washing machine",
+                "overview_title": "Service Overview",
+                "overview_description": "Our Wash & Fold Service is designed to make your laundry routine completely hassle-free. We handle everything from washing and drying to professionally folding your clothes, using high-quality, fabric-friendly detergents.",
+                "included_title": "What's Included?",
+                "included": [
+                  {
+                    "icon": "WashingMachine",
+                    "title": "Washing",
+                    "description": "Thorough cleaning for a fresh feel."
+                  },
+                  {
+                    "icon": "Wind",
+                    "title": "Drying",
+                    "description": "Machine or air drying with fabric care."
+                  },
+                  {
+                    "icon": "Layers",
+                    "title": "Folding",
+                    "description": "Neatly folded and ready to use."
+                  }
+                ],
+                "benefits_title": "Benefits of Wash & Fold",
+                "benefits": [
+                  "Saves your time and effort",
+                  "Keeps clothes fresh and hygienic",
+                  "Gentle care for all fabric types",
+                  "Ideal for everyday laundry needs",
+                  "Professional and reliable service",
+                  "Convenient pickup and delivery options"
+                ]
+              },
+              "dry-cleaning": {
+                "slug": "dry-cleaning",
+                "name": "Dry Cleaning",
+                "title_black": "Expert Dry Cleaning for",
+                "title_blue": "Delicate Garments",
+                "description": "Premium solvent-based cleaning that protects the colour, texture and shape of your suits, sarees, gowns and designer wear.",
+                "image": "/images/dry-cleaning.webp",
+                "image_alt": "Clean shirts hanging on a rack",
+                "overview_title": "Service Overview",
+                "overview_description": "Our dry cleaning process uses eco-friendly solvents and careful hand-finishing to remove dirt, oils and odours without water damage. Each garment is inspected, treated and pressed before being returned on a hanger.",
+                "included_title": "What's Included?",
+                "included": [
+                  {
+                    "icon": "Search",
+                    "title": "Inspection",
+                    "description": "Garment and stain check before cleaning."
+                  },
+                  {
+                    "icon": "Droplets",
+                    "title": "Solvent Clean",
+                    "description": "Gentle eco-friendly dry cleaning."
+                  },
+                  {
+                    "icon": "Shirt",
+                    "title": "Press & Hang",
+                    "description": "Finished and returned on hangers."
+                  }
+                ],
+                "benefits_title": "Benefits of Dry Cleaning",
+                "benefits": [
+                  "Protects delicate and designer fabrics",
+                  "Prevents shrinking and colour fading",
+                  "Removes tough oils and odours",
+                  "Professional finishing and pressing",
+                  "Eco-friendly cleaning solvents",
+                  "Free pickup and delivery"
+                ]
+              },
+              "steam-ironing": {
+                "slug": "steam-ironing",
+                "name": "Steam Ironing",
+                "title_black": "Professional Steam",
+                "title_blue": "Ironing Service",
+                "description": "Crisp, wrinkle-free clothes pressed with industrial steam equipment for a sharp and polished look every day.",
+                "image": "/images/steam-ironing.webp",
+                "image_alt": "Steam iron pressing a blue shirt",
+                "overview_title": "Service Overview",
+                "overview_description": "Our steam ironing service uses high-pressure steam to relax fibres and remove even stubborn creases. It's gentle on fabrics, kills germs and gives your shirts, trousers and dresses a perfectly finished look.",
+                "included_title": "What's Included?",
+                "included": [
+                  {
+                    "icon": "Flame",
+                    "title": "Steam Press",
+                    "description": "Deep steam for crease-free finish."
+                  },
+                  {
+                    "icon": "Shirt",
+                    "title": "Shape Care",
+                    "description": "Collars and cuffs perfectly set."
+                  },
+                  {
+                    "icon": "Package",
+                    "title": "Packing",
+                    "description": "Folded or hung as you prefer."
+                  }
+                ],
+                "benefits_title": "Benefits of Steam Ironing",
+                "benefits": [
+                  "Sharp, wrinkle-free appearance",
+                  "Gentle on all fabric types",
+                  "Kills germs and bacteria",
+                  "Saves your daily ironing time",
+                  "Ready-to-wear finish",
+                  "Same-day service available"
+                ]
+              },
+              "stain-removal": {
+                "slug": "stain-removal",
+                "name": "Stain Removal",
+                "title_black": "Advanced Stain",
+                "title_blue": "Removal Service",
+                "description": "Specialist pre-treatment for tough stains like oil, ink, wine, curry and makeup, restoring your garments to their best.",
+                "image": "/images/stain-removal.webp",
+                "image_alt": "Stain remover spray on a white shirt",
+                "overview_title": "Service Overview",
+                "overview_description": "Every stain is different. Our experts identify the stain type and fabric, then apply the right professional treatment to lift it safely without damaging colour or texture.",
+                "included_title": "What's Included?",
+                "included": [
+                  {
+                    "icon": "Search",
+                    "title": "Stain Analysis",
+                    "description": "Identify stain and fabric type."
+                  },
+                  {
+                    "icon": "Sparkles",
+                    "title": "Pre-Treatment",
+                    "description": "Targeted professional solutions."
+                  },
+                  {
+                    "icon": "WashingMachine",
+                    "title": "Deep Clean",
+                    "description": "Complete wash for a fresh result."
+                  }
+                ],
+                "benefits_title": "Benefits of Stain Removal",
+                "benefits": [
+                  "Removes stubborn and old stains",
+                  "Safe for colours and delicates",
+                  "Extends the life of garments",
+                  "Expert fabric-specific treatment",
+                  "No harsh chemicals",
+                  "Visible, lasting results"
+                ]
+              },
+              "fabric-care": {
+                "slug": "fabric-care",
+                "name": "Fabric Care",
+                "title_black": "Gentle Care for",
+                "title_blue": "Delicate Fabrics",
+                "description": "Special handling for wool, silk, linen, cashmere and embellished garments that need extra attention.",
+                "image": "/images/fabric-care.webp",
+                "image_alt": "Folded soft sweaters and fabrics",
+                "overview_title": "Service Overview",
+                "overview_description": "Delicate fabrics deserve delicate care. We follow garment care labels, use pH-balanced detergents and low-temperature processes to keep your favourite pieces soft, vibrant and in shape.",
+                "included_title": "What's Included?",
+                "included": [
+                  {
+                    "icon": "Hand",
+                    "title": "Hand Wash",
+                    "description": "Gentle washing for delicates."
+                  },
+                  {
+                    "icon": "Droplets",
+                    "title": "Soft Rinse",
+                    "description": "pH-balanced, fabric-safe care."
+                  },
+                  {
+                    "icon": "Wind",
+                    "title": "Air Dry",
+                    "description": "Low-heat drying to keep shape."
+                  }
+                ],
+                "benefits_title": "Benefits of Fabric Care",
+                "benefits": [
+                  "Keeps fabrics soft and vibrant",
+                  "Prevents stretching and shrinking",
+                  "Label-compliant cleaning",
+                  "Ideal for wool, silk and linen",
+                  "Careful handling of embellishments",
+                  "Longer-lasting garments"
+                ]
+              },
+              "pickup-delivery": {
+                "slug": "pickup-delivery",
+                "name": "Pickup & Delivery",
+                "title_black": "Free Doorstep",
+                "title_blue": "Pickup & Delivery",
+                "description": "Laundry without leaving home – we collect from your doorstep and deliver fresh clothes back at your chosen time.",
+                "image": "/images/pickup-delivery.webp",
+                "image_alt": "Delivery executive holding a laundry bag",
+                "overview_title": "Service Overview",
+                "overview_description": "Book a slot online or by phone and our uniformed executive arrives on time to collect your laundry. Track your order and receive your freshly cleaned clothes neatly packed at your door.",
+                "included_title": "What's Included?",
+                "included": [
+                  {
+                    "icon": "CalendarCheck",
+                    "title": "Easy Booking",
+                    "description": "Pick a slot that suits you."
+                  },
+                  {
+                    "icon": "Truck",
+                    "title": "Free Pickup",
+                    "description": "Collected right from your door."
+                  },
+                  {
+                    "icon": "Package",
+                    "title": "On-time Delivery",
+                    "description": "Fresh clothes, neatly packed."
+                  }
+                ],
+                "benefits_title": "Benefits of Pickup & Delivery",
+                "benefits": [
+                  "No need to leave your home",
+                  "Flexible pickup time slots",
+                  "Trained and verified staff",
+                  "Safe and hygienic handling",
+                  "Real-time order updates",
+                  "Free for orders above ₹499"
+                ]
+              }
+            },
+            "pricing": {
+              "eyebrow": "Why Choose Us",
+              "title_black": "Our Laundry Service",
+              "title_blue": "Benefits",
+              "description": "Quality care, transparent pricing, and a hassle-free laundry experience.",
+              "table_header_title": "Features / Benefits",
+              "bottom_title": "Starting Price",
+              "columns": [
+                {
+                  "id": "basic",
+                  "name": "Basic Care",
+                  "icon": "Layers",
+                  "header_bg": "bg-[#cce3fd]",
+                  "header_text_color": "text-[#0b2545]",
+                  "price": "₹149 / Load",
+                  "price_bg": "bg-[#cce3fd]",
+                  "price_text_color": "text-[#0b2545]"
+                },
+                {
+                  "id": "standard",
+                  "name": "Standard Care",
+                  "icon": "Hanger",
+                  "badge": "Most Popular",
+                  "header_bg": "bg-[#1565d8]",
+                  "header_text_color": "text-white",
+                  "price": "₹249 / Load",
+                  "price_bg": "bg-[#1565d8]",
+                  "price_text_color": "text-white"
+                },
+                {
+                  "id": "premium",
+                  "name": "Premium Care",
+                  "icon": "Crown",
+                  "header_bg": "bg-[#0b2545]",
+                  "header_text_color": "text-white",
+                  "price": "₹399 / Load",
+                  "price_bg": "bg-[#e1f0ff]",
+                  "price_text_color": "text-[#0b2545]"
+                }
+              ],
+              "rows": [
+                {
+                  "id": "r1",
+                  "feature": "Professional Washing",
+                  "icon": "WashingMachine",
+                  "basic": true,
+                  "standard": true,
+                  "premium": true
+                },
+                {
+                  "id": "r2",
+                  "feature": "Steam Ironing",
+                  "icon": "Iron",
+                  "basic": false,
+                  "standard": true,
+                  "premium": true
+                },
+                {
+                  "id": "r3",
+                  "feature": "Stain Removal",
+                  "icon": "Sparkles",
+                  "basic": false,
+                  "standard": true,
+                  "premium": true
+                },
+                {
+                  "id": "r4",
+                  "feature": "Fabric Care & Protection",
+                  "icon": "Leaf",
+                  "basic": false,
+                  "standard": true,
+                  "premium": true
+                },
+                {
+                  "id": "r5",
+                  "feature": "Pickup & Delivery",
+                  "icon": "Truck",
+                  "basic": true,
+                  "standard": true,
+                  "premium": true
+                },
+                {
+                  "id": "r6",
+                  "feature": "Quality Check",
+                  "icon": "ShieldCheck",
+                  "basic": true,
+                  "standard": true,
+                  "premium": true
+                },
+                {
+                  "id": "r7",
+                  "feature": "Customer Support",
+                  "icon": "Headphones",
+                  "basic": "Basic Support",
+                  "standard": "Priority Support",
+                  "premium": "24/7 Support"
+                }
+              ]
+            },
+            "contact": {
+              "eyebrow": "Contact Us",
+              "title_black": "Get in Touch with",
+              "title_blue": "FreshFold Laundry",
+              "description": "Have a question, need a quote, or want to schedule a pickup? We're here to help!",
+              "image": "/images/pickup-basket.webp",
+              "image_alt": "Basket of fresh folded towels in laundry room",
+              "info": [
+                {
+                  "icon": "MapPin",
+                  "title": "Our Location",
+                  "lines": [
+                    "123 Education Lane,",
+                    "New York, NY 10001"
+                  ],
+                  "href": ""
+                },
+                {
+                  "icon": "Phone",
+                  "title": "Call Us",
+                  "lines": [
+                    "+100000000000"
+                  ],
+                  "href": "tel:+100000000000"
+                },
+                {
+                  "icon": "Mail",
+                  "title": "Email Us",
+                  "lines": [
+                    "info@xyz.com"
+                  ],
+                  "href": "mailto:info@xyz.com"
+                }
+              ],
+              "form": {
+                "title": "Send Us a Message",
+                "first_name_placeholder": "First Name *",
+                "last_name_placeholder": "Last Name *",
+                "email_placeholder": "Email Address *",
+                "phone_placeholder": "Phone Number *",
+                "message_placeholder": "Your Message *",
+                "button_text": "Send Message",
+                "sending_text": "Sending...",
+                "success_title": "Message Sent!",
+                "success_message": "Thank you for reaching out. Our team will get back to you shortly.",
+                "reset_text": "Send Another Message"
+              },
+              "map_title": "FreshFold Laundry New York Location Map",
+              "map_embed": "https://maps.google.com/maps?q=123+Education+Lane+New+York+NY+10001&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            },
+            "bookPickup": {
+              "eyebrow": "Book a Pickup",
+              "title_black": "Schedule Your",
+              "title_blue": "Laundry Pickup",
+              "description": "Book a convenient laundry pickup from your home or office, and we'll take care of the rest.",
+              "image": "/images/pickup-basket.webp",
+              "image_alt": "Basket of fresh folded laundry in sunlit modern laundry room",
+              "highlights": [
+                {
+                  "icon": "Truck",
+                  "title": "Convenient Pickup",
+                  "description": "We collect from your doorstep."
+                },
+                {
+                  "icon": "Clock",
+                  "title": "Time-Saving",
+                  "description": "No more laundry hassles."
+                },
+                {
+                  "icon": "ShieldCheck",
+                  "title": "Safe & Reliable",
+                  "description": "Careful handling of your clothes."
+                }
+              ],
+              "form": {
+                "title": "Book a Pickup Now",
+                "first_name_placeholder": "First Name *",
+                "last_name_placeholder": "Last Name *",
+                "phone_placeholder": "Phone Number *",
+                "email_placeholder": "Email Address *",
+                "address_placeholder": "Pickup Address *",
+                "date_label": "Preferred Pickup Date *",
+                "time_placeholder": "Preferred Time *",
+                "time_slots": [
+                  "8:00 AM – 10:00 AM",
+                  "10:00 AM – 12:00 PM",
+                  "12:00 PM – 3:00 PM",
+                  "3:00 PM – 6:00 PM",
+                  "6:00 PM – 9:00 PM"
+                ],
+                "service_placeholder": "Laundry Service *",
+                "notes_placeholder": "Additional Notes (Optional)",
+                "button_text": "Book Pickup",
+                "sending_text": "Booking...",
+                "success_title": "Pickup Scheduled!",
+                "success_message": "Thank you! Your pickup request has been received. Our team will contact you shortly.",
+                "reset_text": "Book Another Pickup"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
