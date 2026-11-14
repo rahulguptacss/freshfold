@@ -164,9 +164,13 @@ export default function Pricing({ data }: { data: PricingSectionData }) {
                       : 'text-[#4b5b73] hover:text-[#0b2545]'
                   }`}
                 >
-                  {isPopular && !isSelected && (
-                    <span className="text-[9px] font-extrabold text-[#f59e0b] uppercase tracking-wider mb-0.5">
-                      ★ Popular
+                  {isPopular && (
+                    <span
+                      className={`text-[9px] font-extrabold uppercase tracking-wider mb-0.5 ${
+                        isSelected ? 'text-[#f5b301]' : 'text-[#f59e0b]'
+                      }`}
+                    >
+                      ★ {col.badge || 'Popular'}
                     </span>
                   )}
                   <span className="text-[12.5px] font-bold leading-tight truncate w-full">
@@ -338,6 +342,11 @@ export default function Pricing({ data }: { data: PricingSectionData }) {
                             : 'bg-[#0b2545] text-white'
                         }`}
                       >
+                        {col.badge && (
+                          <span className="mb-1 rounded-full bg-[#f5b301] px-2 py-0.5 text-[9px] font-extrabold uppercase tracking-wider text-[#0b2545] shadow-xs">
+                            {col.badge}
+                          </span>
+                        )}
                         <span className="text-[13px] font-bold">{col.name}</span>
                         <span className="text-[11px] font-semibold mt-0.5 opacity-90">
                           {col.price.split('/')[0].trim()}
@@ -424,7 +433,7 @@ export default function Pricing({ data }: { data: PricingSectionData }) {
                 return (
                   <div
                     key={col.id}
-                    className={`relative flex flex-col items-center justify-center px-4 py-4 sm:py-5 border-l border-white/20 transition-all ${
+                    className={`relative flex flex-col items-center justify-center px-4 pt-7 pb-4 sm:pt-8 sm:pb-5 border-l border-white/20 transition-all ${
                       isBasic
                         ? 'bg-[#cce3fd] text-[#0b2545]'
                         : isStandard
@@ -434,7 +443,7 @@ export default function Pricing({ data }: { data: PricingSectionData }) {
                   >
                     {/* Floating Most Popular Badge */}
                     {col.badge && (
-                      <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 z-20 whitespace-nowrap rounded-full bg-[#f5b301] px-3.5 py-0.5 text-[11px] font-extrabold tracking-wide text-[#0b2545] shadow-[0_2px_8px_rgba(245,179,1,0.4)]">
+                      <div className="absolute top-2 sm:top-2.5 left-1/2 -translate-x-1/2 z-20 whitespace-nowrap rounded-full bg-[#f5b301] px-3.5 py-0.5 text-[10.5px] sm:text-[11px] font-extrabold uppercase tracking-wide text-[#0b2545] shadow-[0_2px_8px_rgba(245,179,1,0.4)]">
                         {col.badge}
                       </div>
                     )}

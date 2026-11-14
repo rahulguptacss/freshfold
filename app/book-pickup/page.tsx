@@ -19,7 +19,7 @@ export default function BookPickupPage() {
   const sectionMap: Record<string, React.ReactNode> = {
     Breadcrumb: <Breadcrumb data={sections.breadcrumb} currentPage={pageData.pageName} />,
     BookPickup: <BookPickup data={sections.bookPickup} services={sections.services.items} />,
-    Cta: <Cta data={sections.cta} />,
+    Cta: <Cta data={sections.cta} showButton={false} />,
   };
 
   return (

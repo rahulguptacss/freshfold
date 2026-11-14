@@ -7,7 +7,13 @@ import { ArrowRight } from 'lucide-react';
 import Icon from '../../ui/Icon';
 import type { CtaSectionData } from '../../types';
 
-export default function Cta({ data }: { data: CtaSectionData }) {
+export default function Cta({
+  data,
+  showButton = true,
+}: {
+  data: CtaSectionData;
+  showButton?: boolean;
+}) {
   return (
     <section className="bg-white pt-6 pb-8 sm:pt-8 sm:pb-12 overflow-visible">
       <div className="mx-auto max-w-[1200px] px-4 sm:px-6">
@@ -87,17 +93,19 @@ export default function Cta({ data }: { data: CtaSectionData }) {
             </div>
 
             {/* White Pill Action Button */}
-            <Link
-              href={data.button_link}
-              className="group inline-flex shrink-0 items-center gap-2.5 rounded-full bg-white px-5 py-2.5 sm:px-6 sm:py-3 text-[13.5px] sm:text-[14.5px] font-bold text-[#0b2545] shadow-md transition-all duration-300 hover:shadow-xl hover:bg-slate-50 hover:-translate-y-0.5"
-            >
-              <Icon
-                name="Truck"
-                className="h-4 w-4 text-[#1565d8] transition-transform group-hover:-translate-x-0.5"
-              />
-              <span>{data.button_text}</span>
-              <ArrowRight className="h-4 w-4 text-[#1565d8] transition-transform group-hover:translate-x-0.5" />
-            </Link>
+            {showButton && data.button_text && (
+              <Link
+                href={data.button_link}
+                className="group inline-flex shrink-0 items-center gap-2.5 rounded-full bg-white px-5 py-2.5 sm:px-6 sm:py-3 text-[13.5px] sm:text-[14.5px] font-bold text-[#0b2545] shadow-md transition-all duration-300 hover:shadow-xl hover:bg-slate-50 hover:-translate-y-0.5"
+              >
+                <Icon
+                  name="Truck"
+                  className="h-4 w-4 text-[#1565d8] transition-transform group-hover:-translate-x-0.5"
+                />
+                <span>{data.button_text}</span>
+                <ArrowRight className="h-4 w-4 text-[#1565d8] transition-transform group-hover:translate-x-0.5" />
+              </Link>
+            )}
           </div>
         </motion.div>
       </div>
